@@ -1,0 +1,98 @@
+body{
+    background-color: #FFF;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: teal;
+  }
+
+#myDiv {
+  position: relative;
+  border: 1px solid white;
+  background-color: lightblue;
+  text-align: center;
+  width: 500px;
+  height: 400px;
+  position: absolute;
+  border-radius: 15px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#top {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 500px;
+    height: 50px;
+    font-size: 40px;
+    display:inline-block;
+    text-align: center;
+}
+
+#middle{
+    position: absolute;
+    margin: 0px auto 0 auto;
+    height: 208px;
+    background-color: lightcyan;
+    display:inline-block;
+    border-radius: 15px;
+    top: 80px;
+    width: 450px;
+    left: 25px;
+}
+#wind{
+    position: absolute;
+    float: left;
+    left: 0;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 20%;
+}
+#photo{
+    position: absolute;
+    float: left;
+    left: 150px;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 6%;
+}
+#degree{
+    position: absolute;
+    float: left;
+    left: 300px;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 20%;
+}
+#button{
+    position: absolute;
+    float: left;
+    width: 0500px;
+    height: 44px;
+    display:inline-block;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 7%;
+    top: 280px;
+    left: 0;
+}
+img{
+    width: 150px;
+    height: 150px;
+}
+#time{
+    position: absolute;
+    width: 500px;
+    top: 50px;
+    margin: 0px auto 0 auto;
+    height: 30px;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 1%;
+}
